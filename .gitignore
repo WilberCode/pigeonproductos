@@ -1,0 +1,11 @@
+.idea
+.vscode
+node_modules 
+local.json
+tailwind.js
+webpack.mix.js                 
+yarn.lock
+.editorconfig
+assets/
+package-lock.json
+package.json
