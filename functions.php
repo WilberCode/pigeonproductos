@@ -90,11 +90,7 @@ add_action( 'wp_footer', function () {
 	wp_register_script ('pigeonlatam-setting',get_template_directory_uri().'/pigeonlatam/js/setting.js');  
 	wp_register_script ('pigeonlatam-function',get_template_directory_uri().'/pigeonlatam/js/function.js');  
 	wp_register_script ('pigeonlatam-common',get_template_directory_uri().'/pigeonlatam/js/common.js');  
-<<<<<<< HEAD
-	wp_register_script ('pigeonlatam-search',get_template_directory_uri().'/pigeonlatam/js/search.js?v=01');    
-=======
 	wp_register_script ('pigeonlatam-search',get_template_directory_uri().'/pigeonlatam/js/search.js?v=8');    
->>>>>>> develop
 	// enqueue global assets 
 	wp_enqueue_script( 'pigeonlatam-library' );  
 	wp_enqueue_script( 'pigeonlatam-setting' );  
